@@ -49,7 +49,7 @@ span {
 
 .heading {
   text-align: center;
-  margin:4rem 0rem; 
+  margin-top:4rem; 
 }
 
 .title_p{
@@ -177,10 +177,12 @@ span{
 
 
   }
-
-  section {
-    margin: 0rem 0rem;
+  .heading {
+    text-align: center;
+    margin:4rem 0rem; 
   }
+
+ 
 
  
   
