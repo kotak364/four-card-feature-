@@ -19,10 +19,11 @@ html {
   --Very-Dark-Blue: hsl(234, 12%, 34%);
   --Grayish-Blue: hsl(229, 6%, 66%);
   --Very-Light-Gray: hsl(0, 0%, 98%);
+  --white:#ffff;
 }
 
 body {
-  background-color: var(--Grayish-Blue);
+  background-color: var(--Very-Light-Gray);
   font-family: "Poppins", sans-serif;
 }
 
@@ -59,15 +60,19 @@ span{
 }
 
 .card {
-  background-color: var(--Very-Light-Gray);
+  background-color: var(--white);
   height: 15rem;
   padding: 1rem 1rem;
   border-radius: 0rem 0rem 0.5rem 0.5rem;
+  max-width:50%;
+  margin:0 auto;
+
 }
 
 #card-1 {
   border-top: 0.5rem solid var(--Cyan);
   position: relative;
+
   
 }
 
@@ -119,41 +124,40 @@ span{
     grid-template-areas:
       "grid-1 grid-2 grid-4"
       "grid-1 grid-3 grid-4";
-      max-width: 70rem;
+      max-width: 80rem;
       margin: 0 auto;
       grid-gap:1rem;
       /* border:2px solid black; */
       align-content: start;
 
-    
-    
-
-
 
     }
 
+    .card{
+      width:100%;
+    }
 
   #card-1 {
     grid-area: grid-1;
     align-self: center;
-    max-width: 20rem;
+    /* max-width: 20rem; */
   }
   #card-2 {
     grid-area: grid-2;
     align-self:end;
-    max-width: 20rem;
+    /* max-width: 20rem; */
   }
   #card-3 {
     grid-area: grid-3;
     align-self:start;
-    max-width: 20rem;
+    /* max-width: 20rem; */
     
    
   }
   #card-4 {
     grid-area: grid-4;
     align-self: center;
-    max-width: 20rem;
+    /* max-width: 20rem; */
   }
 
   h2{
