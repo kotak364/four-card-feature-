@@ -33,10 +33,15 @@ section {
   margin: 0rem 2rem;
 }
 
+
   .card-body {
   display: flex; 
 flex-direction: column;
   justify-content: space-evenly;
+  border:2px solid black;
+margin:0 auto;
+max-width: 25rem;
+
 
 }  
 
@@ -50,11 +55,15 @@ span {
 
 .heading {
   text-align: center;
-  margin-top:4rem; 
+  margin:0rem auto; 
+  max-width: 30rem;
+  
+
 }
 
 .title_p{
     margin-top: 1rem;
+    color:var(--Grayish-Blue);
   
 }
 
@@ -62,11 +71,20 @@ span{
     display: block;
 }
 
+
+
+
 .card {
   background-color: var(--white);
   height: 15rem;
   padding: 1rem 1rem;
   border-radius: 0rem 0rem 0.5rem 0.5rem;
+
+  
+
+
+  
+  
 
 }
 
@@ -115,7 +133,7 @@ span{
   bottom: 0.5rem;
 }
 
-@media screen and (min-width: 40rem) {
+@media screen and (min-width: 30rem) {
 
     .card-body {
         display: grid;
@@ -172,7 +190,7 @@ span{
   .title_p{
     
       max-width:30%;
-      margin: 0 auto;
+    
     
     
 
