@@ -1,15 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;1,200&display=swap");
 
-
+/* ======css reset  start ========*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* ======css reset end ========*/
 
-html {
-  font-size: 10px;
-}
+
+
+/* ======css variable  start ========*/
 
 :root {
   --Red: hsl(0, 78%, 62%);
@@ -20,6 +21,15 @@ html {
   --Grayish-Blue: hsl(229, 6%, 66%);
   --Very-Light-Gray: hsl(0, 0%, 98%);
   --white:#ffff;
+}
+
+/* ======css variable  end ========*/
+
+
+/* ======general styling start ========*/
+
+html {
+  font-size: 10px;
 }
 
 body {
@@ -34,17 +44,13 @@ section {
 }
 
 
-  .card-body {
-  display: flex; 
-flex-direction: column;
-  justify-content: space-evenly;
-margin:0 auto;
-max-width: 25rem;
-height: 100vh;
+/* ======general styling end ========*/
 
 
 
-}  
+
+
+/* ====== typography start ========*/
 
 h2 {
   font-weight: 200;
@@ -83,8 +89,23 @@ span{
     display: block;
 }
 
+/* ====== typography end ========*/
 
 
+
+/* ====== card section start ========*/
+
+
+.card-body {
+  display: flex; 
+flex-direction: column;
+  justify-content: space-evenly;
+margin:0 auto;
+max-width: 25rem;
+height: 100vh;
+
+
+}  
 
 .card {
   background-color: var(--white);
@@ -92,10 +113,6 @@ span{
   padding: 1rem 1rem;
   border-radius: 0rem 0rem 0.5rem 0.5rem;
 
-  
-
-
-  
   
 
 }
@@ -144,6 +161,12 @@ span{
   right: 1rem;
   bottom: 0.5rem;
 }
+
+/* ====== card section end ========*/
+
+
+
+/* ====== media query start ========*/
 
 @media screen and (min-width: 30rem) {
 
@@ -211,3 +234,4 @@ span{
  
   
 }
+/* ====== media query end ========*/
