@@ -39,8 +39,8 @@ flex-direction: column;
   justify-content: space-evenly;
 margin:0 auto;
 max-width: 25rem;
-border:2px solid black;
-height: 120vh;
+/* border:2px solid black; */
+height: 110vh;
 
 
 }  
