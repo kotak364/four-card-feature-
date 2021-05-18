@@ -25,6 +25,8 @@ html {
 body {
   background-color: var(--Very-Light-Gray);
   font-family: "Poppins", sans-serif;
+  height: 100vh;
+
 }
 
 section {
@@ -34,7 +36,6 @@ section {
   .card-body {
   display: flex; 
 flex-direction: column;
-  height: 100vh;
   justify-content: space-evenly;
 
 }  
@@ -54,6 +55,7 @@ span {
 
 .title_p{
     margin-top: 1rem;
+  
 }
 
 span{
@@ -65,8 +67,7 @@ span{
   height: 15rem;
   padding: 1rem 1rem;
   border-radius: 0rem 0rem 0.5rem 0.5rem;
-  max-width:60%;
-  margin:0 auto;
+
 }
 
 #card-1 {
