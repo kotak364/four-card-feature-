@@ -40,7 +40,7 @@ flex-direction: column;
 margin:0 auto;
 max-width: 25rem;
 /* border:2px solid black; */
-height: 110vh;
+height: 100vh;
 
 
 }  
@@ -55,8 +55,8 @@ span {
 
 .heading {
   text-align: center;
-  margin:0rem auto; 
-  max-width: 30rem;
+  margin:1rem auto; 
+  max-width: 25rem;
   
 
 }
@@ -64,6 +64,7 @@ span {
 .title_p{
     margin-top: 1rem;
     color:var(--Grayish-Blue);
+     
   
 }
 
