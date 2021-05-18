@@ -40,7 +40,6 @@ flex-direction: column;
 margin:0 auto;
 max-width: 25rem;
 /* border:2px solid black; */
-height: 100vh;
 
 
 }  
@@ -169,24 +168,24 @@ span{
   #card-1 {
     grid-area: grid-1;
     align-self: center;
-    /* max-width: 20rem; */
+  
   }
   #card-2 {
     grid-area: grid-2;
     align-self:end;
-    /* max-width: 20rem; */
+
   }
   #card-3 {
     grid-area: grid-3;
     align-self:start;
-    /* max-width: 20rem; */
+  
     
    
   }
   #card-4 {
     grid-area: grid-4;
     align-self: center;
-    /* max-width: 20rem; */
+  
   }
 
   
