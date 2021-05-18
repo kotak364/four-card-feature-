@@ -25,7 +25,6 @@ html {
 body {
   background-color: var(--Very-Light-Gray);
   font-family: "Poppins", sans-serif;
-height: 100vh;
 
 
 }
@@ -41,6 +40,8 @@ flex-direction: column;
   justify-content: space-evenly;
 margin:0 auto;
 max-width: 25rem;
+height: 100vh;
+
 
 
 }  
