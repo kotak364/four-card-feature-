@@ -149,15 +149,14 @@ span{
     .card-body {
         display: grid;
     grid-template-columns: repeat(3, 1fr);
-    height: 100vh;
     grid-template-areas:
       "grid-1 grid-2 grid-4"
       "grid-1 grid-3 grid-4";
-      max-width: 70rem;
+      max-width: 90rem;
       margin: 0 auto;
       grid-gap:1rem;
       /* border:2px solid black; */
-      align-content: start;
+      height:auto;
 
     
     
@@ -165,55 +164,49 @@ span{
 
 
     }
-.card{
-  width:100%;
-}
+
 
   #card-1 {
     grid-area: grid-1;
     align-self: center;
-    max-width: 20rem;
+    /* max-width: 20rem; */
   }
   #card-2 {
     grid-area: grid-2;
     align-self:end;
-    max-width: 20rem;
+    /* max-width: 20rem; */
   }
   #card-3 {
     grid-area: grid-3;
     align-self:start;
-    max-width: 20rem;
+    /* max-width: 20rem; */
     
    
   }
   #card-4 {
     grid-area: grid-4;
     align-self: center;
-    max-width: 20rem;
+    /* max-width: 20rem; */
   }
 
-  h2{
-      font-size: 3rem;
-     
-  }
+  
  
 
-  .title_p{
-    
-      max-width:30%;
-    
-    
-    
-
-
-  }
   .heading {
     text-align: center;
-    margin:4rem 0rem; 
+    margin:4rem auto; 
+    max-width: 40rem;
+    
   }
 
- 
+ h2{
+   font-size: 3rem;
+ }
 
+ span{
+  font-size: 3rem;
+
+ }
  
   
 }
