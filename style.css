@@ -8,8 +8,6 @@
 }
 /* ======css reset end ========*/
 
-
-
 /* ======css variable  start ========*/
 
 :root {
@@ -20,11 +18,10 @@
   --Very-Dark-Blue: hsl(234, 12%, 34%);
   --Grayish-Blue: hsl(229, 6%, 66%);
   --Very-Light-Gray: hsl(0, 0%, 98%);
-  --white:#ffff;
+  --white: #ffff;
 }
 
 /* ======css variable  end ========*/
-
 
 /* ======general styling start ========*/
 
@@ -35,204 +32,132 @@ html {
 body {
   background-color: var(--Very-Light-Gray);
   font-family: "Poppins", sans-serif;
-
-
 }
 
 section {
   margin: 0rem 2rem;
 }
 
-
 /* ======general styling end ========*/
-
-
-
-
 
 /* ====== typography start ========*/
 
 h2 {
   font-weight: 200;
-  
 }
-h3{
-  color:var(--Very-Dark-Blue);
-
+h3 {
+  color: var(--Very-Dark-Blue);
 }
 span {
   font-weight: 600;
-  color:var(--Very-Dark-Blue);
+  color: var(--Very-Dark-Blue);
 }
 
 .heading {
   text-align: center;
-  margin:1rem auto; 
+  margin: 1rem auto;
   max-width: 25rem;
-  
-
 }
 
-.title_p{
-    margin-top: 1rem;
-    color:var(--Grayish-Blue);
-     
-  
+.title_p {
+  margin-top: 1rem;
+  color: var(--Grayish-Blue);
 }
 
-p{
-  color:var(--Grayish-Blue);
-
-}
-
-span{
-    display: block;
+p {
+  color: var(--Grayish-Blue);
 }
 
 /* ====== typography end ========*/
 
-
-
 /* ====== card section start ========*/
 
-
 .card-body {
-  display: flex; 
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
-margin:0 auto;
-max-width: 25rem;
-height: 100vh;
-
-
-}  
-
+  margin: 0 auto;
+  max-width: 25rem;
+  height: 100vh;
+  position: relative;
+}
 
 .card {
   background-color: var(--white);
   height: 15rem;
   padding: 1rem 1rem;
   border-radius: 0rem 0rem 0.5rem 0.5rem;
+  position: relative;
+}
 
-  
-
+img {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 1rem;
 }
 
 #card-1 {
   border-top: 0.5rem solid var(--Cyan);
-  position: relative;
-  
-}
-
-#icon-1 {
-  position: absolute;
-  right: 1rem;
-  bottom: 0.5rem;
 }
 
 #card-2 {
   border-top: 0.5rem solid var(--Red);
-  position: relative;
-}
-
-#icon-2 {
-  position: absolute;
-  right: 1rem;
-  bottom: 0.5rem;
 }
 
 #card-3 {
   border-top: 0.5rem solid var(--Orange);
-  position: relative;
-}
-
-#icon-3 {
-  position: absolute;
-  right: 1rem;
-  bottom: 0.5rem;
 }
 
 #card-4 {
   border-top: 0.5rem solid var(--Blue);
-  position: relative;
-}
-
-#icon-4 {
-  position: absolute;
-  right: 1rem;
-  bottom: 0.5rem;
 }
 
 /* ====== card section end ========*/
 
-
-
 /* ====== media query start ========*/
 
 @media screen and (min-width: 30rem) {
-
-    .card-body {
-        display: grid;
+  .card-body {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
       "grid-1 grid-2 grid-4"
       "grid-1 grid-3 grid-4";
-      max-width: 90rem;
-      margin: 0 auto;
-      grid-gap:1rem;
-      /* border:2px solid black; */
-      height:auto;
-
-    
-    
-
-
-
-    }
-
+    max-width: 90rem;
+    margin: 0 auto;
+    grid-gap: 1rem;
+    height: auto;
+  }
 
   #card-1 {
     grid-area: grid-1;
     align-self: center;
-  
   }
   #card-2 {
     grid-area: grid-2;
-    align-self:end;
-
+    align-self: end;
   }
   #card-3 {
     grid-area: grid-3;
-    align-self:start;
-  
-    
-   
+    align-self: start;
   }
   #card-4 {
     grid-area: grid-4;
     align-self: center;
-  
   }
-
-  
- 
 
   .heading {
     text-align: center;
-    margin:4rem auto; 
+    margin: 4rem auto;
     max-width: 40rem;
-    
   }
 
- h2{
-   font-size: 3rem;
- }
+  h2 {
+    font-size: 3rem;
+  }
 
- span{
-  font-size: 3rem;
-
- }
- 
-  
+  span {
+    font-size: 3rem;
+  }
 }
 /* ====== media query end ========*/
